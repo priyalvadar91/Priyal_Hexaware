@@ -4,7 +4,7 @@ public class Pattern1 {
 
     public static void main(String[] args) {
 
-        System.ot.println("******************");
+        System.out.println("______________________________");
 
     }
 }
