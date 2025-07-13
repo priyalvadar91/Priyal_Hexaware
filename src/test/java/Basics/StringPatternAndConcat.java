@@ -13,7 +13,6 @@ public class StringPatternAndConcat {
         String strTrim = s.replaceAll(" ", "");
         System.out.println(strTrim);
 
-        Set<String> set= new HashSet<>();
         for (int i = 0; i < strTrim.length(); i++) {
 
             for (int j = 0; j < strTrim.length(); j++) {

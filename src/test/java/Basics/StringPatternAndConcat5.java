@@ -19,6 +19,7 @@ public class StringPatternAndConcat5 {
 
         for (int i = 0; i < s.length(); i++) {
             for (int j = 0; j < s.length(); j++) {
+
                 if (i != j && !(Character.isWhitespace(s.charAt(i))) && !(Character.isWhitespace(s.charAt(j)))) {
                     System.out.print(result + s.charAt(i) + s.charAt(j) + " , ");
                 }

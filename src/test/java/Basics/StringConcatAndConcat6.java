@@ -10,18 +10,20 @@ package Basics;
 //        oI , oL , oo , ov , oe , oD , og , os ,
 //        gI , gL , go , gv , ge , gD , go , gs ,
 //        sI , sL , so , sv , se , sD , so , sg ,
+
 public class StringConcatAndConcat6 {
+
     public static void main(String[] args) {
-        String s= "I Love Dogs";
-        String result="";
+        String s = "I Love Dogs";
+        String result = "";
 
         for (int i = 0; i < s.length(); i++) {
 
             for (int j = 0; j < s.length(); j++) {
 
-                if (i!=j && !(Character.isWhitespace(s.charAt(i))) && !(Character.isWhitespace(s.charAt(j)))) {
+                if (i != j && !(Character.isWhitespace(s.charAt(i))) && !(Character.isWhitespace(s.charAt(j)))) {
 
-                    System.out.print(result+s.charAt(i) + s.charAt(j) + " , ");
+                    System.out.print(result + s.charAt(i) + s.charAt(j) + " , ");
 
                 }
             }

@@ -10,11 +10,12 @@ package Basics;
 //        oI , oL , oo , ov , oe , oD , oo , og , os ,
 //        gI , gL , go , gv , ge , gD , go , gg , gs ,
 //        sI , sL , so , sv , se , sD , so , sg , ss ,
-public class StringPatternAndConcat2  {
+
+public class StringPatternAndConcat2 {
 
     public static void main(String[] args) {
 
-        String s="I Love Dogs";
+        String s = "I Love Dogs";
         String result = "";
 
         String strTrim = s.replaceAll(" ", "");
@@ -23,7 +24,7 @@ public class StringPatternAndConcat2  {
 
             for (int j = 0; j < strTrim.length(); j++) {
 
-                System.out.print(result+strTrim.charAt(i)+strTrim.charAt(j)+" , ");
+                System.out.print(result + strTrim.charAt(i) + strTrim.charAt(j) + " , ");
             }
             System.out.println();
         }
