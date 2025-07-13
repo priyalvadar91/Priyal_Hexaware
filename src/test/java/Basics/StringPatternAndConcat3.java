@@ -1,4 +1,5 @@
 package Basics;
+
 //Input: I Love Dogs
 //Output:
 //        IL , Io , Iv , Ie , ID , Io , Ig , Is ,
@@ -13,7 +14,7 @@ package Basics;
 public class StringPatternAndConcat3 {
     public static void main(String[] args) {
 
-        String s="I Love Dogs";
+        String s = "I Love Dogs";
         String result = "";
 
         String strTrim = s.replaceAll(" ", "");
@@ -22,15 +23,13 @@ public class StringPatternAndConcat3 {
 
             for (int j = 0; j < strTrim.length(); j++) {
                 if (i != j) {
-                    System.out.print(result+strTrim.charAt(i)+strTrim.charAt(j)+" , ");
-                  }
+                    System.out.print(result + strTrim.charAt(i) + strTrim.charAt(j) + " , ");
                 }
+            }
             System.out.println();
 
-            }
-
-
-
-
         }
-        }
+
+
+    }
+}
