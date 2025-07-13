@@ -1,0 +1,10 @@
+oday i have explained the 2 main commands of Git.
+1. Git Merge
+2. Git Rebase
+
+Both are used to integrated the changes of one branch in another. But the way they work is different.
+
+Git Merge, preserve the commit history, while Git Rebase re-writes the commit history.
+Git Merge add new commit but Git rebase do not add any new commit.
+
+Whenever we work in Public branch, try to avoid Git Rebase.
