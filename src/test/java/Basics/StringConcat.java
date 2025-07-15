@@ -1,5 +1,8 @@
 package Basics;
 
+//Input String      :DALI1234
+//Output String    :D4A3L2I1
+
 public class StringConcat {
     public static void main(String[] args) {
 
@@ -17,14 +20,14 @@ public class StringConcat {
                 numStr = numStr + s.charAt(i);
             }
         }
-        System.out.println(charStr);
-        System.out.println(numStr);
+
 
         for (int i = 0,k=numStr.length()-1; i < charStr.length(); i++,k--) {
             result = result+ charStr.charAt(i)+numStr.charAt((k));
 
         }
 
-        System.out.println(result.trim());
+        System.out.println("Input String      :" +s);
+        System.out.println("Output String     :"+result);
     }
 }
