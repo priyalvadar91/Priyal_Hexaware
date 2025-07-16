@@ -1,10 +1,11 @@
 package Basics;
 
-//Input : DALI1234
-//Output: D4A3L2I1
+//Input String      :abcd1234
+//        Output String     :a4b3c2d1
+
 public class StringConcat1 {
     public static void main(String[] args) {
-        String s = "DALI1234";
+        String s = "abcd1234";
         String result = "";
 
         for (int i = 0; i<s.length()/2 ; i++) {
