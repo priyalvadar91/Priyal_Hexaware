@@ -1,6 +1,6 @@
 package Basics;
 
-public class Test1 {
+public class ReverseNumber3 {
 
     public static void main(String[] args) {
          int a=1234;
