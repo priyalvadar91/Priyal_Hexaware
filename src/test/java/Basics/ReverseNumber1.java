@@ -1,6 +1,6 @@
 package Basics;
 
-public class ReverseNumber {
+public class ReverseNumber1 {
     public static void main(String[] args) {
         int a =123456;
         int reminder=0;
