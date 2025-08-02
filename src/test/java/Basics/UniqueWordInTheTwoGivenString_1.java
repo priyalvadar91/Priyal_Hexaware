@@ -2,7 +2,7 @@ package Basics;
 
 import java.util.*;
 
-public class UniqueWordInTheString1 {
+public class UniqueWordInTheTwoGivenString_1 {
     public static void main(String[] args) {
          String s1="Have a nice day";
          String s2 ="Have a good day";
