@@ -13,7 +13,6 @@ public class UniqueWordInTheTwoGivenString_1 {
          List<String> list = new ArrayList<String>();
 
         for (int i = 1; i < str1.length; i++) {
-
             list.add(str1[i]);
             list.add(str2[i]);
         }
