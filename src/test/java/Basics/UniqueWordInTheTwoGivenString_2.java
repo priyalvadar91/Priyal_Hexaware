@@ -21,8 +21,9 @@ public class UniqueWordInTheTwoGivenString_2 {
 
             merge[i + str1.length] = str2[i];
         }
-
-        System.out.println(Arrays.toString(merge));
+        System.out.println("String 1        :"+s1);
+        System.out.println("String 2        :"+s2);
+        System.out.println("Merged String   :"+Arrays.toString(merge));
 
         Set<String> set = new HashSet<>();
 
@@ -35,7 +36,7 @@ public class UniqueWordInTheTwoGivenString_2 {
         List<String> list = new ArrayList<>();
         list.addAll(set);
         Collections.reverse(list);
-        System.out.println(list);
+        System.out.println("Unique          : "+list);
 
     }
 }

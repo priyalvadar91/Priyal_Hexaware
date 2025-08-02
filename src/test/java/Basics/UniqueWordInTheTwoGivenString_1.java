@@ -6,10 +6,8 @@ public class UniqueWordInTheTwoGivenString_1 {
     public static void main(String[] args) {
          String s1="Have a nice day";
          String s2 ="Have a good day";
-
          String [] str1 = s1.split(" ");
          String [] str2 = s2.split(" ");
-
          List<String> list = new ArrayList<String>();
 
         for (int i = 1; i < str1.length; i++) {

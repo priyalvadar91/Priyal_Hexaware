@@ -18,7 +18,6 @@ public class StringIntoKeyValueForm {
 
         }
         for (Map.Entry<Character,Character> entry : hashmap.entrySet()) {
-
             int valueInt = Integer.parseInt(String.valueOf(entry.getValue()));
             for (int i = 0; i < valueInt; i++) {
                 result=result+entry.getKey();

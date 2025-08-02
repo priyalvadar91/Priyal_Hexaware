@@ -22,11 +22,9 @@ public class CharCount {
             else {
 
                 hashMap.put(s.charAt(i), 1);
-
             }
 
         }
-
         List<Character> list = new ArrayList<>();
 
         for (Map.Entry<Character,Integer> entry:hashMap.entrySet()) {
