@@ -25,8 +25,8 @@ public class ArrayNumArrangement {
                 result[j]=a[i];
                 j++;
             }
-
         }
+
 
         System.out.println("Input  :"+Arrays.toString(a));
         System.out.println("Output :"+Arrays.toString(result));
