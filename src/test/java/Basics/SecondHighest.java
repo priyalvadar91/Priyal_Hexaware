@@ -13,7 +13,6 @@ public class SecondHighest {
                 secondLargest=largest;
                 largest=a[i];
             }else {
-
                 if (a[i] > secondLargest && largest!=secondLargest) {
 
                     secondLargest =a[i];
@@ -21,7 +20,6 @@ public class SecondHighest {
             }
 
         }
-
         System.out.println("Largest        :"+largest);
         System.out.println("Second largest :"+secondLargest);
     }
