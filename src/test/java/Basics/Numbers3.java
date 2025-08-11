@@ -6,16 +6,14 @@ import java.util.List;
 
 public class Numbers3 {
     public static void main(String[] args) {
-        int n=6913;
+        int n=5929;
         int result=0;
         int num=n;
         int steps=1;
-
         while (result!=6174){
             steps++;
             int a=0;
             int b=0;
-
             String s= Integer.toString(num);
             Integer [] digits = new Integer[s.length()];
             for (int i = 0; i < digits.length; i++) {
