@@ -24,8 +24,6 @@ public class Numbers2 {
             for (int digit : digits) {
                 a = a * 10 + digit;
             }
-
-
             int start = 0;
             int end = digits.length - 1;
 

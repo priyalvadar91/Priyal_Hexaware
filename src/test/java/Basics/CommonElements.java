@@ -17,7 +17,6 @@ public class CommonElements {
             list.add(b[i]);
         }
         Set<Integer> set = new HashSet<Integer>();
-
         for (int i = 0; i <list.size() ; i++) {
 
             if (!set.add(list.get(i))) {
