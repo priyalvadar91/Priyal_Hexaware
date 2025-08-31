@@ -16,7 +16,7 @@ public class StringPatternAndConcat {
         for (int i = 0; i < strTrim.length(); i++) {
 
             for (int j = 0; j < strTrim.length(); j++) {
-                if (i != j  ) {
+               if (i != j  ) {
                     System.out.print(result+strTrim.charAt(i)+strTrim.charAt(j)+" , ");
                 }
             }

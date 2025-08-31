@@ -14,6 +14,4 @@ public class AternativeWordUppercase {
             }
         }
         System.out.println(result);
-
-
     }}
