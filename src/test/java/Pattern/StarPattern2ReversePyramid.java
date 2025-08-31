@@ -1,10 +1,17 @@
 package Pattern;
+// * * * * * * * * *
+//   * * * * * * *
+//     * * * * *
+//       * * *
+//         *
 
-public class StarPattern2 {
+
+public class StarPattern2ReversePyramid {
 
     public static void main(String[] args) {
-        for (int i = 5; i >=1 ; i--) {
-            for (int j = 1; j <=5-i ; j++) {
+        int n=10;
+        for (int i = n; i >=1 ; i--) {
+            for (int j = 1; j <=n-i ; j++) {
                 System.out.print("  ");
             }
             for (int k = 1; k <=(i*2-1) ; k++) {
