@@ -10,8 +10,6 @@ public class AllPossibleSubSequence {
         String result ="";
 
         List<String> list= new ArrayList<>();
-
-
         for (int i = 0; i <s.length() ; i++) {
             list.add(String.valueOf(s.charAt(i)));
             for (int j = 0; j <s.length() ; j++) {
@@ -30,8 +28,6 @@ public class AllPossibleSubSequence {
                 if (i!=j) {
                     System.out.print(s.substring(j, i+1)+"  ");
                 }
-
-
             }
             System.out.println();
 
