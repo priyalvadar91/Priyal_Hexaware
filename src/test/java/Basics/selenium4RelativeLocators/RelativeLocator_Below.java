@@ -17,14 +17,9 @@ public class RelativeLocator_Below {
         WebElement username = driver.findElement(RelativeLocator.with(By.xpath("//input[@id='user-name']")).above(password));
 
         WebElement loginButton = driver.findElement(RelativeLocator.with(By.xpath("//input[@id='login-button']")).below(username));
-
         username.sendKeys("standard_user");
         password.sendKeys("secret_sauce");
         loginButton.click();
-
-
-
-
 
     }
 }

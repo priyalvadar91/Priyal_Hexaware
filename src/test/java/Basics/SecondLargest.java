@@ -4,7 +4,7 @@ public class SecondLargest {
 
     public static void main(String[] args) {
 
-        int [] arr = {111,12, 35, 108, 10, 34, 122, 37, 35,99,1002,1002};
+        int [] arr = {111,12, 35, 108, 10, 3994, 122, 37, 35,99,1090,1002};
         int firstLargest=0;
         int secondLargest=0;
 

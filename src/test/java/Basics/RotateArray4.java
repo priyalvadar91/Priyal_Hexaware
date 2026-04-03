@@ -18,9 +18,7 @@ public class RotateArray4 {
 
             a[a.length-1]=first;
         }
-
         System.out.println(Arrays.toString(a));
-
 
     }
 }

@@ -9,9 +9,7 @@ public class ReverseNumber1 {
             reminder=a%10;
             result =result*10+reminder;
             a=a/10;
-
         }
-
         System.out.println(result);
     }
 }

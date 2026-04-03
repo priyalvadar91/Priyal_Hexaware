@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class RotateArray3 {
     public static void main(String[] args) {
-        int [] a={12,5,22,34,1,6,9,23,5,8};
+        int [] a={12,5,22,34,1,6,9,23,56,8};
         int index =3;
 
         System.out.println("Before rotate :"+Arrays.toString(a));

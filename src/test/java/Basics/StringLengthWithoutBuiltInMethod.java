@@ -14,7 +14,6 @@ public class StringLengthWithoutBuiltInMethod {
 
        }
 
-
         System.out.println(i);
     }
 }

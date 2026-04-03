@@ -16,7 +16,6 @@ public class Number1 {
 
          int[] digits = Integer.toString(num).chars().map(c -> c-'0').toArray();
 
-
           Arrays.sort(digits);
         for (int digit : digits) {
             a = a * 10 + digit;
