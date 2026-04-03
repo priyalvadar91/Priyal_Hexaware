@@ -15,5 +15,7 @@ public class SwapPairInString {
 
         String str= new String(ch);
         System.out.println("After Swap Pair :"+str);
+
+
     }
 }
