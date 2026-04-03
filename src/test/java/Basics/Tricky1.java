@@ -26,6 +26,7 @@ public class Tricky1 {
         for (Map.Entry<Character,Integer> entry: hashMap.entrySet()) {
             result= result+entry.getKey()+entry.getValue();
         }
+
         System.out.println("Input String  :" +s);
         System.out.println("Output String :"+result);
 

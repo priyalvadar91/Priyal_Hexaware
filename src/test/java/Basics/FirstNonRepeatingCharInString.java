@@ -3,7 +3,7 @@ package Basics;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FirstNotReatingCharInString {
+public class FirstNonRepeatingCharInString {
     public static void main(String[] args) {
         String s="swiss";
         HashMap<Character,Integer> hashMap = new HashMap<>();

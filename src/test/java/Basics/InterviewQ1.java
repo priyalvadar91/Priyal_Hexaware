@@ -7,7 +7,7 @@ public class InterviewQ1 {
         System.out.println("a= "+a);
     }
     {
-        a=5;
+        a=15;
         System.out.println("a= "+a);
     }
     InterviewQ1(){
@@ -21,7 +21,10 @@ public class InterviewQ1 {
     }
 
     public static void main(String[] args) {
+        m1();
+        System.out.println("main method");
         InterviewQ1 i= new InterviewQ1();
-        i.m1();
+
+
     }
 }
