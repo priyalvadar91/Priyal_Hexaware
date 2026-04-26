@@ -1,7 +1,7 @@
 package Basics;
 
 //Input String      :abcd1234
-//        Output String     :a4b3c2d1
+//Output String     :a4b3c2d1
 
 public class StringConcat1 {
     public static void main(String[] args) {

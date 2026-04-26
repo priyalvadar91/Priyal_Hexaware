@@ -1,10 +1,10 @@
 package Pattern;
-
 //         *
 //       * * *
 //     * * * * *
 //   * * * * * * *
 // * * * * * * * * *
+
 public class StarPattern1Pyramid {
     public static void main(String[] args) {
 
